@@ -1,0 +1,2 @@
+Question:
+In computer networking, a reliable protocol is a protocol which notifies the sender whether or not the delivery of data to intended recipients was successful. Reliable protocol implies the protocol provides assurance of the delivery of data to the recipient. However, reliability in an unreliable channel is a tedious task and need to develop reliable data transfer (rdt) protocol. Develop an rdt protocol where you should consider the bit errors.
