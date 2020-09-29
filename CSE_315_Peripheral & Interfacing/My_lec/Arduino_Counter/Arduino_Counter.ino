@@ -88,7 +88,7 @@ void loop()
 //    count++;  // increment 'count' by 1
 //    if(count == 9999)
 //      count = 0;
-    count=50;
+    count=50-20;
     delay(200);  // wait 200 milliseconds
   }
 }
