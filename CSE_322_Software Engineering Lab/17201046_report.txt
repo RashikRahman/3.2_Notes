@@ -1,0 +1,37 @@
+F
+======================================================================
+FAIL: testContract_Expand_MainMenu (__main__.FinalTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "17201046.py", line 36, in testContract_Expand_MainMenu
+    self.assertNotEqual(flag, 2, 'Main menu list collapses and expands successfully')
+AssertionError: 2 == 2 : Main menu list collapses and expands successfully
+
+======================================================================
+FAIL: testFirstRowFirstCol_Data (__main__.FinalTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "17201046.py", line 108, in testFirstRowFirstCol_Data
+    self.assertNotEqual(data[0][0].text, 'Cierra', 'Data does match')
+AssertionError: 'Cierra' == 'Cierra' : Data does match
+
+======================================================================
+FAIL: testForms (__main__.FinalTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "17201046.py", line 50, in testForms
+    self.assertNotEqual(retrieved_text, 'Name:Mariam', 'Text Matches')
+AssertionError: 'Name:Mariam' == 'Name:Mariam' : Text Matches
+
+======================================================================
+FAIL: testTitle (__main__.FinalTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "17201046.py", line 15, in testTitle
+    self.assertNotEqual(title,'ToolsQA','Title Matches')
+AssertionError: 'ToolsQA' == 'ToolsQA' : Title Matches
+
+----------------------------------------------------------------------
+Ran 8 tests in 191.784s
+
+FAILED (failures=4)
