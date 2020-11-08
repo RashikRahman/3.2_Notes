@@ -1,0 +1,33 @@
+C:\Users\Notebook\anaconda3\lib\site-packages\numpy\__init__.py:140: UserWarning: mkl-service package failed to import, therefore Intel(R) MKL initialization ensuring its correct out-of-the box operation under condition when Gnu OpenMP had already been loaded by Python process is not assured. Please install mkl-service package, see http://github.com/IntelPython/mkl-service
+  from . import _distributor_init
+..FF...F
+======================================================================
+FAIL: testDropDown (__main__.FinalTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:/3.2_Notes/CSE_322_Software Engineering Lab/17201012_LAB_Final_08.11.17.py", line 64, in testDropDown
+    self.assertNotEqual(retrived_text, 'Day selected :- Monday', 'Text Matches') #If error occurs that means the selcted dropdown option and retrieved option matches.
+AssertionError: 'Day selected :- Monday' == 'Day selected :- Monday' : Text Matches
+
+======================================================================
+FAIL: testForms (__main__.FinalTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:/3.2_Notes/CSE_322_Software Engineering Lab/17201012_LAB_Final_08.11.17.py", line 87, in testForms
+    self.assertNotEqual(retrieved_text, text, 'Text Matches') # If error that means the passed and retrieved text matches.
+AssertionError: 'Hi' == 'Hi' : Text Matches
+
+======================================================================
+FAIL: testTitle (__main__.FinalTest)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "E:/3.2_Notes/CSE_322_Software Engineering Lab/17201012_LAB_Final_08.11.17.py", line 18, in testTitle
+    self.assertNotEqual(title,'Selenium Easy - Checkbox demo for automation using selenium','Title Matches') #If error occurs that means title matches
+AssertionError: 'Selenium Easy - Checkbox demo for automation using selenium' == 'Selenium Easy - Checkbox demo for automation using selenium' : Title Matches
+
+----------------------------------------------------------------------
+Ran 8 tests in 60.282s
+
+FAILED (failures=3)
+
+Process finished with exit code 1
