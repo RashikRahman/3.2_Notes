@@ -1,0 +1,12 @@
+Name : Rashik Rahman
+ID : 17201012
+Cisco Version : 7.3.0
+
+######### CLI Config #########
+
+-show ip router
+-configure terminal
+-router rip
+-version 2
+-no auto-summary
+-network (connected ips)
