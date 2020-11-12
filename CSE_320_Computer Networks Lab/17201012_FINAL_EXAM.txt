@@ -1,9 +1,9 @@
 Name : Rashik Rahman
 ID : 17201012
-Cisco Version : 7.3.0
+Cisco Packet Tracer Version : 7.3.0
+
 
 ######### CLI Config #########
-
 -show ip router
 -configure terminal
 -router rip
